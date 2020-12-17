@@ -1,6 +1,8 @@
 //main.cpp
 //solarSystem
 #include <GL\glut.h>
+#include <stdlib.h>
+#include <stdio.h>
 #include "solarsystem.hpp"
 
 //创建图形窗口的基本宏
@@ -44,6 +46,8 @@ int main(int argc, char *argv[])
 	glutKeyboardFunc(onKeyboard);
 
 	glutMainLoop();
+
+	getchar();
 
 	return 0;
 

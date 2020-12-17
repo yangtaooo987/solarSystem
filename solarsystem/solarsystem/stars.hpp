@@ -1,8 +1,9 @@
 #ifndef STARS_HPP
 #define STARS_HPP
 
-
 #include <GL/glut.h>
+
+#define SELFROTATE 3
 
 // class Star
 class Star{
