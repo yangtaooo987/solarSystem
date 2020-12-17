@@ -9,10 +9,18 @@
 #define WIDTH 700
 #define HEIGHT 700
 
+SolarSystem solarsystem;
+
 //用于注册Glut的回调
-void onDisplay(void);
-void onUpdate(void);
-void onKeyboard(unsigned char key, int x, int y);
+void onDisplay(void){
+	solarsystem.onDisplay();
+}
+void onUpdate(void){
+	solarsystem.onUpdate();
+}
+void onKeyboard(unsigned char key, int x, int y){
+	solarsystem.onKeyboard(key,x,y);
+}
 
 
 int main(int argc, char *argv[])

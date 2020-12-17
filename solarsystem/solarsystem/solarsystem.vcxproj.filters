@@ -15,13 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\c_project\solarSystem\solarSystem\starts.hpp">
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stars.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="solarsystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="solarsystem.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stars.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\c_project\solarSystem\solarSystem\main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <Text Include="Makefile.txt">
+      <Filter>资源文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>

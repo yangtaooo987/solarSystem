@@ -10,6 +10,18 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="solarsystem.cpp" />
+    <ClCompile Include="stars.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="solarsystem.hpp" />
+    <ClInclude Include="stars.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Makefile.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AC3B2718-7A54-4A1D-88A4-F67D9E43A2C0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -75,12 +87,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\c_project\solarSystem\solarSystem\starts.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\c_project\solarSystem\solarSystem\main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
